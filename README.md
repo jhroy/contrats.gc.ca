@@ -13,4 +13,4 @@ Petit à petit, seront placés ici des scripts et des fichiers au fur et à mesu
 Ils seront classés par agence ou ministère.
 
 C'est beaucoup de boulot.
-Vous aimez ruby? Vous avez du temps de machine à partager? Contactez-moi (jh[petit-tas]jhroy.ca)
+Vous aimez ruby? Vous avez du temps de machine à partager? Contactez-moi [jh(petit-tas)jhroy.ca](mailto:jh(petit-tas)jhroy.ca)
