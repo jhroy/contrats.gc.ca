@@ -6,7 +6,6 @@ require "nokogiri"
 require "open-uri"
 
 agence = "Défense nationale et les Forces canadiennes"
-tout = [] #création d'une matrice pour accueillir tous les contrats
 n = 0 #compteur
 
 (2004..2014).each do |annee|
@@ -23,7 +22,7 @@ n = 0 #compteur
 
 		end
 
-		tout = []
+		tout = []  #création d'une matrice pour accueillir tous les contrats d'un trimestre donné
 
 		url = "http://www.admfincs.forces.gc.ca/apps/dc/qua-tri-fra.asp?q=" + q.to_s + "&y=" + annee.to_s
 		puts url #affichage, aux fins de vérification, de l'URL de la liste primaire des contrats pour un trimestre
@@ -56,7 +55,7 @@ n = 0 #compteur
 				contrat[titre] = contenu
 			end
 			tout.push contrat
-			sleep 0.25 #petite pause
+			sleep 0.25 #petite pause café
 		end
 
 		# écriture des résultats dans un fichier CSV pour chacun des trimestres
