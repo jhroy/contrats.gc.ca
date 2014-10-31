@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-#GPL 2014 Jean-Hugues Roy
+#©2014 Jean-Hugues Roy. GNU GPL v3.
 
 require "csv"
 require "nokogiri"
