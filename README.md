@@ -1,7 +1,7 @@
 contrats.gc.ca
 ==============
 
-Le gouvernement fédéral canadien rend publics, depuis 2004, la liste de tous les contrats octroyés par ses différents ministères et agences (http://www.tbs-sct.gc.ca/pd-dp/gr-rg/index-fra.asp).
+Le gouvernement fédéral canadien rend publique, depuis 2004, la liste de tous les contrats octroyés par ses différents ministères et agences (http://www.tbs-sct.gc.ca/pd-dp/gr-rg/index-fra.asp).
 Ce répertoire projette de mettre en ligne une base de données de tous ces contrats.
 
 Leur extraction («scraping») est cependant fastidieuse:
